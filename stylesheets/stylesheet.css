@@ -20,8 +20,7 @@ h2
   border: 1px solid black;
   float: right;
   width: 100px;
-  
- 
+
 }
 
 p
@@ -30,13 +29,18 @@ p
 clear: right;
 }
 
+.row
+{
+  width : 100%;
+}
 section
 {
  
   border: 1px;
   border-color: black;
+  /*
   margin-left: 10px;
-  margin-right:10px;
+  margin-right:10px;*/
   border-style: solid;
 
 }
@@ -143,14 +147,17 @@ section
 
 #content1{
   background-color: AntiqueWhite;
+  
 }
 
 #content2{
   background-color: DarkGray;
+   
 }
 
 #content3{
   background-color: MistyRose;
+   
 }
 
 #chicken{
@@ -162,5 +169,53 @@ section
 }
 #sushi{
   background-color: Green;
+}
+
+.col-lg-4 > #content1
+{
+  margin-left:10px;
+  margin-right: 0px;
+}
+.col-lg-4 > #content2
+{
+  margin-left:10px;
+  margin-right: 0px;
+}
+.col-lg-4 > #content3
+{
+  margin-left:10px;
+  margin-right: 10px;
+}
+
+.col-md-6 > #content1
+{
+  margin-left:10px;
+  margin-right: 0px;
+}
+.col-md-6 > #content2
+{
+  margin-left:10px;
+  margin-right: 10px;
+}
+.col-md-12 > #content3
+{
+  margin-left:10px;
+  margin-right: 10px;
+}
+
+.col-sm-12 > #content1
+{
+  margin-left:10px;
+  margin-right: 10px;
+}
+.col-sm-12 > #content2
+{
+  margin-left:10px;
+  margin-right: 10px;
+}
+.col-sm-12 > #content3
+{
+  margin-left:10px;
+  margin-right: 10px;
 }
 
